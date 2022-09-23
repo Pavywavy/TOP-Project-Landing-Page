@@ -3,11 +3,16 @@
     font-family: roboto, sans-serif;
 }
 
+
+header {
+    padding: 0 3em 3em 3em;
+}
+
 .TopHeader {
     display: flex;
     flex-direction: column;
    width: 46em;
-   gap: 2em;
+   gap: 4em;
    padding: 2em;
 }
 s
@@ -88,14 +93,18 @@ header container ul {
  }
 
 .randomSection {
+    display: flex;
     align-items: center;
     flex-direction: column;
-    display: flex;
+    gap: 3em;
+    padding: 3em;
+    margin: 0 0 73px 0;
 }
 
 .randomSection ul {
     list-style-type: none;
     padding: 0;
+    margin: 2em;
 }
 
 .randomSection ul li {
@@ -103,11 +112,12 @@ header container ul {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 1em;
+    width: 192px;
 }
 
 .randomImagesList {
     display: flex;
+    gap: 20px;
     margin: 2em;
 }
 

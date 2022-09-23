@@ -112,9 +112,20 @@ header container ul {
 }
 
 .randomImagesList li img {
-    width: 10em;
+    width: 12em;
+    height: auto;
     margin: 1em;
     color: red;
-    border: 1px solid blue;
-    border-radius: 15%;
+    border: 2px solid blue;
+    border-radius: 25px;
+}
+
+#mainQuote {
+    background-color: #E6E6E6; 
+    text-align: center;
+}
+
+#mainQuote p {
+    font-size: 60px;
+    padding: 2.5em;
 }

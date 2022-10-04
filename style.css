@@ -1,6 +1,6 @@
 * {
     margin: 0;
-    font-family: Roboto, sans-serif;
+    font-family: Arial, sans-serif;
 }
 
 
@@ -24,6 +24,7 @@ s
 
 .mainLogo {
     font-size: 24px;
+    font-weight: bold;
     color:#F9FAF8;
 }
 
@@ -58,7 +59,7 @@ gap: 1em;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    width:  300px;
+    width:  400px;
     gap: 10px;
 }
 
@@ -129,11 +130,15 @@ header container ul {
 #mainQuote {
     background-color: #E6E6E6; 
     text-align: center;
+    font-size: 36px;
 }
 
 #mainQuote p {
+    color: #1F2937;
     font-size: 60px;
     padding: 2.5em;
+    font-weight: light;
+    font-style: italic;
 }
 
 #callToAction {
@@ -174,5 +179,5 @@ footer {
     align-items: center;
     color: white;
     background-color: #1F2937;
-    padding: 1em;
+    padding: 3em 0;
 }

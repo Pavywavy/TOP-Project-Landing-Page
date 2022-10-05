@@ -95,7 +95,6 @@ header container ul {
     flex-direction: column;
     gap: 3em;
     padding: 3em;
-    margin: 0 0 73px 0;
 }
 
 .randomSection ul {
@@ -123,7 +122,7 @@ header container ul {
     height: auto;
     margin: 1em;
     color: red;
-    border: 2px solid blue;
+    border: 3px solid #00B2FF;
     border-radius: 25px;
 }
 
@@ -135,8 +134,8 @@ header container ul {
 
 #mainQuote p {
     color: #1F2937;
-    font-size: 60px;
-    padding: 2.5em;
+    font-size: 32px;
+    padding: 163px 0;
     font-weight: light;
     font-style: italic;
 }
@@ -150,7 +149,7 @@ header container ul {
 
 .signUpSection {
     display: flex;
-    width: 60em;
+    width: 48em;
     gap: 140px;
     padding: 2.5em;
     border-radius: 5px;
